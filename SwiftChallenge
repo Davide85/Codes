@@ -1,4 +1,7 @@
 % Swift application challenge
+% written in Matlab code
+% It displays on the command window and prints on a .txt file named
+% fizzbuzz.txt
 
 for i=1:100
     if mod(i,3)==0 % check module of i
