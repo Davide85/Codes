@@ -1,2 +1,2 @@
 # Fireworks
-Not saying, most ridiculous programs
+Not saying, most ridiculous stuff
