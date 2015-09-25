@@ -1,0 +1,27 @@
+% Swift application challenge
+
+for i=1:100
+    if mod(i,3)==0 % check module of i
+        if mod(i,5)==0
+            disp('Fizz Buzz') % display Fizz Buzz
+            fizzbuzz=fopen('fizzbuzz.txt','a'); %print on .txt file named fizzbuzz
+            fprintf(fizzbuzz,'Fizz Buzz\n');
+            fclose(fizzbuzz);
+        else
+        disp('Fizz') % display Fizz
+        fizzbuzz=fopen('fizzbuzz.txt','a'); %print on .txt file named fizzbuzz
+        fprintf(fizzbuzz,'Fizz\n');
+        fclose(fizzbuzz);
+        end
+    elseif mod(i,5)==0
+        disp('Buzz') % display Buzz
+        fizzbuzz=fopen('fizzbuzz.txt','a'); %print on .txt file named fizzbuzz
+        fprintf(fizzbuzz,'Buzz\n');
+        fclose(fizzbuzz);
+    else
+        disp(i) % display number
+        fizzbuzz=fopen('fizzbuzz.txt','a'); %print on .txt file named fizzbuzz
+        fprintf(fizzbuzz,'%d\n',i);
+        fclose(fizzbuzz);
+    end
+end
